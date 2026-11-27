@@ -1,0 +1,23 @@
+{
+  "case_id": "（来自 /input/case.json）",
+  "status": "success | partial | unable | refused",
+  "status_reason": "（成功/失败/部分完成的原因，及可人工接管位置）",
+  "translation": {
+    "direction": "en→zh",
+    "bilingual_file": "bilingual.md",
+    "glossary_file": "glossary.md",
+    "verification_file": "verification.md"
+  },
+  "sources": [
+    {
+      "claim": "（关键结论）",
+      "loc": { "page": 1, "unit_id": "P1", "snippet": "（原文短语）" }
+    }
+  ],
+  "uncertainty": [
+    { "loc": { "unit_id": "P12", "page": 5 }, "issue": "（未报告/无法判断/OCR 低置信/需人工确认）" }
+  ],
+  "change_records": [
+    { "time": "（ISO 时间）", "change": "（术语锁定/分段/译文回改等关键改动）" }
+  ]
+}
